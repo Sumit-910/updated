@@ -1,0 +1,21 @@
+.testres{
+    min-height: 100vh;
+
+    .theading{
+        background-color: #fff;
+        color: #121212;
+        height: 3rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .efo{
+        background-color: #fff;
+        color: #121212;
+        width: 80vw;
+        margin: auto;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+}

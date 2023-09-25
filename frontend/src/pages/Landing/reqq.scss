@@ -1,0 +1,76 @@
+// .card-container {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     gap: 20px;
+//    // display: flex;
+   
+// //    justify-content: flex-start; /* Align the cards to the right */
+//     max-width: 800px; /* Set a maximum width to control the spacing */
+//   }
+  
+//   .card {
+//     border: none;
+//     padding: 20px;
+//     text-align: center;
+//     margin-top: 80px;
+//    // margin-left: 800px;
+//     background-color: #ffffff;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//     width: 250px;
+//     height: 250px;
+//     border-radius: 10px;
+//   }
+  
+//   button {
+//     margin-top: 10px;
+//     background-color: #007bff;
+//     color: #ffffff;
+//     border: none;
+//     padding: 8px 16px;
+//     cursor: pointer;
+//     border-radius: 4px;
+//     font-size: 16px;
+//     transition: background-color 0.3s ease;
+//   }
+  
+//   button:hover {
+//     background-color: #0056b3;
+//   }
+
+.card-containerr{
+  margin: 5rem;
+  margin-top: 5rem;
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+
+
+  .cardd{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(42, 42, 42);
+    color: #fff;
+    cursor: pointer;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+    &:hover{
+        h3{
+        background: -webkit-linear-gradient(315deg, rgb(250, 139, 159) 0%, rgb(95, 201, 250) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}
+  

@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the dashboard container */
+.dashboard1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+
+    background-image: url('../../assets/retrosupply-jLwVAUtLOAQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Styling for each section */
+.section {
+    text-align: center;
+    background-color: #1a7d82;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+/* Past Performance section styles */
+#past-performance {
+    background: linear-gradient(to bottom, #66bb6a, #204c22);
+    color: #fff;
+}
+
+/* Upcoming Schedule section styles */
+#upcoming-schedule {
+    background: linear-gradient(to bottom, #ef5350, #571514);
+    color: #fff;
+}
+
+/* Assignments section styles */
+#assignmets {
+    background: linear-gradient(to bottom, #5c6bc0, #2f3033);
+    color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 5px 0;
+    transition: transform 0.2s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+
+.carousel-item
+{
+    height:500px;
+    margin-top: 0.15rem;
+}
+.carousel-box
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    animation: slideUp 0.5s 0.3s both;
+}
+h6 {
+    animation: slideUp 0.5s 0.6s both; /* Slide up after 300ms (0.6s) */
+}
+
+.btn-primary {
+    animation: slideUp 0.5s 0.9s both; /* Slide up after 600ms (0.9s) */
+}
+.car-link
+{
+    animation: slideUp 0.5s 0.9s both; 
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+    /* CSS for reducing image size and arranging them in a row */
+    #video_links {
+        display: flex; /* Make the container a flex container */
+        justify-content: space-between; /* Space images evenly within the container */
+        align-items: center; /* Center items vertically within the container */
+    }
+
+    #video_links a {
+        flex: 1; /* Distribute available space equally among the images */
+        margin: 0 10px; /* Add some margin between images */
+    }
+
+    #video_links img {
+        max-width: 100%; /* Ensure the images don't exceed their container's width */
+        height: auto; /* Maintain the aspect ratio */
+    }
+.tutorials
+{
+    margin-top: 20px;
+}
